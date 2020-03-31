@@ -35,7 +35,6 @@ class CharInfo extends Component {
           <li><h2>Birth Date: {info.birth_year}</h2></li>
           <li><h2>Hair Color: {info.hair_color}</h2></li>
           <li><h2>Height: {info.height}</h2></li>
-          <li><h2>Home World: {info.homeworld}</h2></li>
         </ul>
         </Segment>
       </div>
