@@ -14,7 +14,7 @@ class Home extends Component {
   }
 
   getPeople(){
-    return axios.get("https://swapi.co/api/people")
+    return axios.get("https://swapi.dev/api/people")
     .then((response) => {
       console.log(response.data.results);
       this.setState( { people: response.data.results } )
